@@ -96,7 +96,7 @@ vim.api.nvim_create_autocmd("FileType", {
 			0,
 			"n",
 			"<F7>",
-			":w<CR>:split<CR>:te  time python3 % <CR>i",
+			":w<CR>:split<CR>:te  time /usr/bin/python3 % <CR>i",
 			{ silent = true, noremap = true }
 		)
 	end,
